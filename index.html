@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissor</title>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<link rel="stylesheet" href="styles.css">
 <body>
     <div class="game-container">
         <h1>Rock Paper Scissors</h1>
@@ -29,8 +29,10 @@
             <h3>Result</h3>
             <p id="game-result">Choose your move!</p>
         </div>
+        <div class="restart">
+            <button class="choice" onclick="restart()">Restart</button>
+        </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
