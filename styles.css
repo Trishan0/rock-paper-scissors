@@ -7,14 +7,26 @@ body {
     margin: 0;
     background-color: #f4f4f4;
 }
+
 .game-container {
     text-align: center;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+h1 {
+    margin-bottom: 20px;
+}
+
 .choices {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
 }
+
 .choice {
     font-size: 1.5em;
     cursor: pointer;
@@ -24,9 +36,30 @@ body {
     border-radius: 10px;
     transition: background-color 0.3s;
 }
+
 .choice:hover {
     background-color: #e0e0e0;
 }
+
 .header-content {
     margin-top: 20px;
+}
+
+.restart {
+    margin-top: 20px;
+}
+
+button.choice {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.choice:hover {
+    background-color: #45a049;
 }
