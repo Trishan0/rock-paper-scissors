@@ -1,5 +1,32 @@
-.header-content{
-
+body {
+    font-family: Arial, sans-serif;
     display: flex;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.game-container {
+    text-align: center;
+}
+.choices {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.choice {
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+.choice:hover {
+    background-color: #e0e0e0;
+}
+.header-content {
+    margin-top: 20px;
 }
